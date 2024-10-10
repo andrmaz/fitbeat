@@ -1,4 +1,7 @@
 {
 	"editor.fontFamily": "",
-	"cSpell.words": ["clsx", "Fitbeat"]
+	"cSpell.words": ["clsx", "Fitbeat", "shadcn"],
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	}
 }
