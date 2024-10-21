@@ -1,0 +1,8 @@
+{
+  "$schema": "https://commonality.co/config.json",
+  "checks": {
+    "*": [
+      "recommended/sorted-dependencies"
+    ]
+  }
+}

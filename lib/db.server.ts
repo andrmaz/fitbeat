@@ -3,8 +3,8 @@ import { PrismaClient } from '@prisma/client'
 let prisma: PrismaClient
 
 declare global {
-    // eslint-disable-next-line no-var
-    var __db__: PrismaClient
+    // eslint-disable-next-line
+    var __db__: PrismaClient // nosonar
 }
 
 // this is needed because in development we don't want to restart
