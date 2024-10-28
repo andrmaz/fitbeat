@@ -1,3 +1,6 @@
+[![CodeQL](https://github.com/andrmaz/fitbeat/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/andrmaz/fitbeat/actions/workflows/github-code-scanning/codeql)
+[![Playwright Tests](https://github.com/andrmaz/fitbeat/actions/workflows/playwright.yml/badge.svg)](https://github.com/andrmaz/fitbeat/actions/workflows/playwright.yml)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
