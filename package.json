@@ -28,7 +28,8 @@
     "react-dom": "19.0.0-rc-02c0e824-20241028",
     "react-hook-form": "^7.53.0",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "web-push": "^3.6.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
@@ -37,6 +38,7 @@
     "@types/node": "^20",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "@types/web-push": "^3.6.4",
     "commonality": "^0.2.63",
     "commonality-checks-recommended": "^0.0.40",
     "eslint": "^8",

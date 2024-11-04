@@ -5,7 +5,8 @@
 		"Fitbeat",
 		"nosonar",
 		"shadcn",
-		"sonarjs"
+		"sonarjs",
+		"webpush"
 	],
 	"[prisma]": {
 		"editor.defaultFormatter": "Prisma.prisma"
