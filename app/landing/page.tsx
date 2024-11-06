@@ -1,4 +1,4 @@
-import {AuthenticationForm} from './ui/auth-form'
+import AuthenticationForm from './ui/AuthForm'
 
 export default async function Landing() {
   return (
