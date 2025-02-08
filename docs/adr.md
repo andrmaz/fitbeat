@@ -22,6 +22,8 @@ As we prepare to begin development of the customer web application, one key deci
 
 - DBMS: [MongoDB](https://www.mongodb.com/docs/atlas/getting-started/)
 
+- SMTP [MailHog](https://github.com/mailhog/MailHog)
+
 ## Consequences
 
 ### Positive Consequences
