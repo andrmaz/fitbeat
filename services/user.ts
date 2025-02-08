@@ -1,4 +1,4 @@
-import { prisma } from "@/lib/db.server"
+import { prisma } from "@/lib/db"
 
 export function getUserByEmail(email: string) {
     return prisma.user.findFirst({

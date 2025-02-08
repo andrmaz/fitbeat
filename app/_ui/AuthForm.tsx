@@ -4,10 +4,14 @@ import {signIn} from '@/lib/auth'
 import {z} from 'zod'
 
 const emailSchema = z.object({
-  email: z.string().email('Invalid email address')
+  email: z.string().email('Invalid email address'),
 })
 
-export default async function AuthenticationForm() {
+interface AuthFormProps {
+  provider: string
+}
+
+export default async function AuthenticationForm(props: AuthFormProps) {
   return (
     <div className='max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-md'>
       <h1 className='text-2xl font-bold'>Get Started</h1>
@@ -16,13 +20,13 @@ export default async function AuthenticationForm() {
         action={async formData => {
           'use server'
           const email = formData.get('email')?.toString() || ''
-          const result = emailSchema.safeParse({ email })
+          const result = emailSchema.safeParse({email})
 
           if (!result.success) {
             console.error(result.error.errors)
             return
           }
-          await signIn('resend', formData)
+          await signIn(props.provider, formData)
         }}
       >
         <InputEmail />
