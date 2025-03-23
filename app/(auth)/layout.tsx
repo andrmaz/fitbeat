@@ -32,18 +32,18 @@ export default async function RootLayout({
               >
                 <span className='ml-3'>Home</span>
               </Link>
-              <a
+              <Link
                 href='/training'
-                className='flex items-center px-2 py-2 text-gray-900 bg-gray-100 rounded-md'
+                className='flex items-center px-2 py-2 text-gray-600 hover:bg-gray-100 rounded-md'
               >
                 <span className='ml-3'>Training</span>
-              </a>
-              <a
+              </Link>
+              <Link
                 href='/goals'
                 className='flex items-center px-2 py-2 text-gray-600 hover:bg-gray-100 rounded-md'
               >
                 <span className='ml-3'>Goals</span>
-              </a>
+              </Link>
             </nav>
             <div className='p-4 border-t'>
               <DropdownMenu>
