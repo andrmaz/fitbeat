@@ -36,6 +36,9 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         async redirect({ baseUrl }) {
             return `${baseUrl}/dashboard`;
         },
+        authorized: async ({ auth }) => {
+            return !!auth
+        },
     },
     session: { strategy: "jwt" },
     debug: process.env.NODE_ENV !== "production",
