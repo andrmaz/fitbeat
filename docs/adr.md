@@ -12,7 +12,7 @@ As we prepare to begin development of the customer web application, one key deci
 
 - Auth.js + Resend: [https://authjs.dev/getting-started/providers/resend)
 
-- Components: [Shadcn/UI + V0](https://ui.shadcn.com/docs/v0)
+- Components: [Scss + Pico](https://picocss.com/)
 
 - API: [Exercise DB](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/pricing)
 
